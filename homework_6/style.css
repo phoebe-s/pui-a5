@@ -78,7 +78,7 @@ main h2 {
   position: relative;
 }
 
-/*  */
+/* small alternative images of products */
 .smalls {
   list-style: none;
   display: flex;
@@ -115,11 +115,11 @@ main h2 {
   line-height: 24px;
 }
 
-.glazing-choose {
+.glazing {
   margin-bottom: 20px;
 }
 
-.glazing-choose button {
+.glazing-selection button {
   border: 2px solid #000;
   border-radius: 5px;
   padding: 13px 10px;
@@ -130,7 +130,7 @@ main h2 {
   transition: all .5s;
 }
 
-.amount-choose button {
+.amount-selected button {
   border: 2px solid #000;
   border-radius: 5px;
   padding: 10px 10px;
@@ -141,7 +141,7 @@ main h2 {
   transition: all .5s;
 }
 
-.cart button {
+.cart-submit button {
   border: 2px solid #000;
   border-radius: 5px;
   padding: 10px 10px;

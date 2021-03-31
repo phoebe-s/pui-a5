@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Bun Bun Bakery</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!--<script src="main.js" async></script>-->
 </head>
 
 <body>
@@ -54,29 +55,28 @@
             <!-- Glazing selection -->
             <div>
                 <span>Glazing selection*</span>
-                <div class="glazing-choose">
-                    <button>None</button>
-                    <button>Sugar-milk</button>
-                    <button>Vanilla-milk</button>
-                    <button>Double-chocolate</button>
+                <div class="glazing-selection">
+                    <button id="none">None</button>
+                    <button id="sugar-milk">Sugar-milk</button>
+                    <button id="vanilla-milk">Vanilla-milk</button>
+                    <button id="double-chocolate">Double-chocolate</button>
                 </div>
             </div>
 
             <!-- Amount selection -->
             <div>
                 <span>Amount of rolls*</span>
-                <div class="amount-choose">
-                    <button>1</button>
-                    <button>3</button>
-                    <button>6</button>
-                    <button>12</button>
+                <div class="amount-selected">
+                    <button id="one">1</button>
+                    <button id="three">3</button>
+                    <button id="six">6</button>
+                    <button id="twelve">12</button>
                 </div>
             </div>
 
             <!-- add to cart -->
-            <div class="cart">
-                <br>
-                <button>Add to Cart</button>
+            <div class=cart-submit>
+                <button type="submit" id="submit">Add to Cart</button>
             </div>
         </div>
     </main>
@@ -133,7 +133,7 @@
             <p>Back to top</p>
         </div>
     </footer>
-
+<script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,6 @@
+/* all styling */
+
+/* global */
 body {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
@@ -78,6 +81,11 @@ main h2 {
   position: relative;
 }
 
+.left-column #mainImg {
+  height: 500px;
+  width: 400px;
+}
+
 /* small alternative images of products */
 .smalls {
   list-style: none;
@@ -98,6 +106,7 @@ main h2 {
   margin-top: 60px;
 }
 
+/* product description */
 .product-description h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -141,6 +150,7 @@ main h2 {
   transition: all .5s;
 }
 
+/* add to cart button */
 .cart-submit button {
   border: 2px solid #000;
   border-radius: 5px;
@@ -299,57 +309,52 @@ table {
   flex-wrap: wrap;
 }
 
+/* table header */
 th {
-  text-align: left;
-  padding: 5px;
+  padding: 5px 70px;
   color: #ffffff;
   background: #230045;
   font-weight: normal;
+  width: 500px;
+  text-align: center;
 }
 
+/* table data for cart items */
 td {
-  padding: 10px 5px;
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
 }
 
-td input {
-  width: 40px;
-  height: 30px;
-  padding: 5px;
+td:first-child {
+  margin: 30%;
+  text-align: justify;
 }
 
-td a {
-  color: #4E009C;
-  font-size: 12px;
-}
-
-td p {
-  font-weight: 600;
-}
-
-td img {
+td>img {
   width: 80px;
   height: 80px;
   margin-right: 10px;
 }
 
-.total-price {
-  display: flex;
-  justify-content: flex-end;
-}
 
-.total-price table {
-  border-top: 3px solid #230045;
-  width: 100%;
-  max-width: 300px;
-}
-
-td:last-child {
+/* total cost section */
+.total-cost {
   text-align: right;
+  padding-right: 50px;
+  margin-top: 100px;
 }
 
-th:last-child {
-  text-align: right;
+.total-cost h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
+
+.total-cost p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
 
 /* newsletter */
 .newsletter .content {
